@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forgot Password</title>
+    <link rel="stylesheet" href="./Login/styles.css">
+
+</head>
+<center>
+<body bgcolor="pink">
+<h1>
+    <div class="container">
+        <div class="form-container">
+            <h2><u>Forgot</u> <u>Password</u></h2>
+            <p>Enter your email address to reset your password.</p>
+
+            <form action="/submit-reset" method="POST">
+                <div class="input-group">
+                    <h3><label for="email">Email Address</label></h3>
+                    <h1><input type="email" id="email" name="email" placeholder="Enter your email" required></h1>
+                </div>
+
+                <button type="submit" class="btn-submit">Submit</button>
+
+                <p class="back-to-login">
+                    <a href="../Login/login.html">Back to Login</a>
+                    
+                </p>
+            </form>
+        </div>
+    </div>
+</h1>
+</body>
+</center>
+</html>
